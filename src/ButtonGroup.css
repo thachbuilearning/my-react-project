@@ -1,0 +1,26 @@
+/* ButtonGroup.css */
+
+/* Styling for the buttons */
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px #2770ab;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #2770ab;
+}
+
+/* Styling for the button group container */
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

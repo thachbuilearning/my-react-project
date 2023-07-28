@@ -1,0 +1,29 @@
+/* ClassMembersTable.css */
+.table-container {
+    overflow-x: auto;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.members-table th,
+.members-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Add responsive styles for mobile and tablet */
+@media screen and (max-width: 768px) {
+    .members-table {
+        font-size: 14px;
+    }
+
+    .members-table th,
+    .members-table td {
+        padding: 6px;
+    }
+}
